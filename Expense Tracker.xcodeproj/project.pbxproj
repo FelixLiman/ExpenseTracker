@@ -11,6 +11,7 @@
 		C06BB4702632B2C100F1A861 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06BB46F2632B2C100F1A861 /* ContentView.swift */; };
 		C06BB4722632B2CA00F1A861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06BB4712632B2CA00F1A861 /* Assets.xcassets */; };
 		C06BB4752632B2CA00F1A861 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06BB4742632B2CA00F1A861 /* Preview Assets.xcassets */; };
+		C08A1E212633AF2800D121AC /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A1E202633AF2800D121AC /* ViewRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		C06BB4712632B2CA00F1A861 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C06BB4742632B2CA00F1A861 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C06BB4762632B2CA00F1A861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C08A1E202633AF2800D121AC /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				C06BB46D2632B2C100F1A861 /* Expense_TrackerApp.swift */,
 				C06BB46F2632B2C100F1A861 /* ContentView.swift */,
+				C08A1E202633AF2800D121AC /* ViewRouter.swift */,
 				C06BB4712632B2CA00F1A861 /* Assets.xcassets */,
 				C06BB4762632B2CA00F1A861 /* Info.plist */,
 				C06BB4732632B2CA00F1A861 /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C08A1E212633AF2800D121AC /* ViewRouter.swift in Sources */,
 				C06BB4702632B2C100F1A861 /* ContentView.swift in Sources */,
 				C06BB46E2632B2C100F1A861 /* Expense_TrackerApp.swift in Sources */,
 			);
