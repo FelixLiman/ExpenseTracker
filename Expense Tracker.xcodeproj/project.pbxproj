@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C05DBC762636964B006C49BC /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05DBC752636964B006C49BC /* NavigationItem.swift */; };
 		C06BB46E2632B2C100F1A861 /* Expense_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06BB46D2632B2C100F1A861 /* Expense_TrackerApp.swift */; };
 		C06BB4702632B2C100F1A861 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06BB46F2632B2C100F1A861 /* ContentView.swift */; };
 		C06BB4722632B2CA00F1A861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06BB4712632B2CA00F1A861 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C05DBC752636964B006C49BC /* NavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
 		C06BB46A2632B2C100F1A861 /* Expense Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06BB46D2632B2C100F1A861 /* Expense_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerApp.swift; sourceTree = "<group>"; };
 		C06BB46F2632B2C100F1A861 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				C06BB4712632B2CA00F1A861 /* Assets.xcassets */,
 				C06BB4762632B2CA00F1A861 /* Info.plist */,
 				C06BB4732632B2CA00F1A861 /* Preview Content */,
+				C05DBC752636964B006C49BC /* NavigationItem.swift */,
 			);
 			path = "Expense Tracker";
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				C08A1E212633AF2800D121AC /* ViewRouter.swift in Sources */,
 				C06BB4702632B2C100F1A861 /* ContentView.swift in Sources */,
+				C05DBC762636964B006C49BC /* NavigationItem.swift in Sources */,
 				C06BB46E2632B2C100F1A861 /* Expense_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

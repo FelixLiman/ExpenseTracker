@@ -47,7 +47,7 @@ struct ContentView: View {
                                 .aspectRatio(contentMode: .fit)
                                 .frame(width: geometry.size.width / 7 - 6, height: geometry.size.width / 7 - 6)
                                 .foregroundColor(Color.purple)
-                                .rotationEffect(Angle(degrees: showPopUp ? 90 : 0))
+                                .rotationEffect(Angle(degrees: showPopUp ? 45 : 0))
                         }
                         .offset(y: -geometry.size.height / 8 / 2)
                         .onTapGesture {
