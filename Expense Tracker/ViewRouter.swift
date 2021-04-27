@@ -13,7 +13,7 @@ class ViewRouter: ObservableObject {
 
 enum Page {
     case home
-    case liked
-    case records
+    case category
+    case chart
     case user
 }
