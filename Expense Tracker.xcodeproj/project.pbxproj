@@ -21,6 +21,15 @@
 		C06BB4722632B2CA00F1A861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06BB4712632B2CA00F1A861 /* Assets.xcassets */; };
 		C06BB4752632B2CA00F1A861 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06BB4742632B2CA00F1A861 /* Preview Assets.xcassets */; };
 		C08A1E212633AF2800D121AC /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A1E202633AF2800D121AC /* ViewRouter.swift */; };
+		C0D268182638FBE00057805F /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D268172638FBE00057805F /* Font+Extension.swift */; };
+		C0D2681F2638FEB50057805F /* HKGrotesk-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C0D2681A2638FEB40057805F /* HKGrotesk-SemiBold.otf */; };
+		C0D268202638FEB50057805F /* HKGrotesk-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C0D2681B2638FEB50057805F /* HKGrotesk-Light.otf */; };
+		C0D268212638FEB50057805F /* HKGrotesk-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C0D2681C2638FEB50057805F /* HKGrotesk-Bold.otf */; };
+		C0D268222638FEB50057805F /* HKGrotesk-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C0D2681D2638FEB50057805F /* HKGrotesk-Regular.otf */; };
+		C0D268232638FEB50057805F /* HKGrotesk-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C0D2681E2638FEB50057805F /* HKGrotesk-ExtraBold.otf */; };
+		C0D268272639009F0057805F /* TabBarIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D268262639009F0057805F /* TabBarIcon.swift */; };
+		C0D2682A263900B80057805F /* PlusMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D26829263900B80057805F /* PlusMenu.swift */; };
+		C0D2683D263902090057805F /* CashFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D2683C263902090057805F /* CashFlowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +49,15 @@
 		C06BB4742632B2CA00F1A861 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C06BB4762632B2CA00F1A861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C08A1E202633AF2800D121AC /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		C0D268172638FBE00057805F /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
+		C0D2681A2638FEB40057805F /* HKGrotesk-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-SemiBold.otf"; sourceTree = "<group>"; };
+		C0D2681B2638FEB50057805F /* HKGrotesk-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-Light.otf"; sourceTree = "<group>"; };
+		C0D2681C2638FEB50057805F /* HKGrotesk-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-Bold.otf"; sourceTree = "<group>"; };
+		C0D2681D2638FEB50057805F /* HKGrotesk-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-Regular.otf"; sourceTree = "<group>"; };
+		C0D2681E2638FEB50057805F /* HKGrotesk-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-ExtraBold.otf"; sourceTree = "<group>"; };
+		C0D268262639009F0057805F /* TabBarIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarIcon.swift; sourceTree = "<group>"; };
+		C0D26829263900B80057805F /* PlusMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusMenu.swift; sourceTree = "<group>"; };
+		C0D2683C263902090057805F /* CashFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashFlowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				C012CF422637AD7F004A53AF /* Color+Extension.swift */,
+				C0D268172638FBE00057805F /* Font+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -80,21 +99,23 @@
 		C06BB46C2632B2C100F1A861 /* Expense Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				C0D2681C2638FEB50057805F /* HKGrotesk-Bold.otf */,
+				C0D2681E2638FEB50057805F /* HKGrotesk-ExtraBold.otf */,
+				C0D2681B2638FEB50057805F /* HKGrotesk-Light.otf */,
+				C0D2681D2638FEB50057805F /* HKGrotesk-Regular.otf */,
+				C0D2681A2638FEB40057805F /* HKGrotesk-SemiBold.otf */,
 				C012CF412637AD5F004A53AF /* Extensions */,
-				C06BB46D2632B2C100F1A861 /* Expense_TrackerApp.swift */,
-				C06BB46F2632B2C100F1A861 /* ContentView.swift */,
-				C012CF352637A76D004A53AF /* HomeView.swift */,
-				C01EF726263802C50035A754 /* TransactionModel.swift */,
-				C012CF452637C188004A53AF /* TransactionRowContent.swift */,
-				C012CF382637A773004A53AF /* ChartView.swift */,
-				C012CF3B2637A779004A53AF /* AccountView.swift */,
-				C012CF312637A549004A53AF /* CategoryView.swift */,
-				C08A1E202633AF2800D121AC /* ViewRouter.swift */,
-				C06BB4712632B2CA00F1A861 /* Assets.xcassets */,
-				C06BB4762632B2CA00F1A861 /* Info.plist */,
+				C0D2683A263901B10057805F /* Root */,
+				C0D2682C263900EB0057805F /* Main */,
+				C0D2682E263900F90057805F /* Home */,
+				C0D26831263901010057805F /* Category */,
+				C0D26830263900FE0057805F /* Account */,
+				C0D2682F263900FB0057805F /* Chart */,
 				C06BB4732632B2CA00F1A861 /* Preview Content */,
-				C05DBC752636964B006C49BC /* NavigationItem.swift */,
+				C06BB4762632B2CA00F1A861 /* Info.plist */,
+				C06BB4712632B2CA00F1A861 /* Assets.xcassets */,
 				C012CF3E2637AC24004A53AF /* Colors.xcassets */,
+				C0D26837263901920057805F /* Fonts */,
 			);
 			path = "Expense Tracker";
 			sourceTree = "<group>";
@@ -105,6 +126,68 @@
 				C06BB4742632B2CA00F1A861 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C0D2682C263900EB0057805F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				C08A1E202633AF2800D121AC /* ViewRouter.swift */,
+				C0D268262639009F0057805F /* TabBarIcon.swift */,
+				C0D26829263900B80057805F /* PlusMenu.swift */,
+				C06BB46F2632B2C100F1A861 /* ContentView.swift */,
+				C05DBC752636964B006C49BC /* NavigationItem.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		C0D2682E263900F90057805F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				C012CF352637A76D004A53AF /* HomeView.swift */,
+				C0D2683C263902090057805F /* CashFlowView.swift */,
+				C01EF726263802C50035A754 /* TransactionModel.swift */,
+				C012CF452637C188004A53AF /* TransactionRowContent.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		C0D2682F263900FB0057805F /* Chart */ = {
+			isa = PBXGroup;
+			children = (
+				C012CF382637A773004A53AF /* ChartView.swift */,
+			);
+			path = Chart;
+			sourceTree = "<group>";
+		};
+		C0D26830263900FE0057805F /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				C012CF3B2637A779004A53AF /* AccountView.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		C0D26831263901010057805F /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C012CF312637A549004A53AF /* CategoryView.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C0D26837263901920057805F /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		C0D2683A263901B10057805F /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				C06BB46D2632B2C100F1A861 /* Expense_TrackerApp.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +249,12 @@
 			files = (
 				C012CF3F2637AC24004A53AF /* Colors.xcassets in Resources */,
 				C06BB4752632B2CA00F1A861 /* Preview Assets.xcassets in Resources */,
+				C0D2681F2638FEB50057805F /* HKGrotesk-SemiBold.otf in Resources */,
+				C0D268202638FEB50057805F /* HKGrotesk-Light.otf in Resources */,
 				C06BB4722632B2CA00F1A861 /* Assets.xcassets in Resources */,
+				C0D268212638FEB50057805F /* HKGrotesk-Bold.otf in Resources */,
+				C0D268222638FEB50057805F /* HKGrotesk-Regular.otf in Resources */,
+				C0D268232638FEB50057805F /* HKGrotesk-ExtraBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +267,8 @@
 			files = (
 				C08A1E212633AF2800D121AC /* ViewRouter.swift in Sources */,
 				C01EF727263802C50035A754 /* TransactionModel.swift in Sources */,
+				C0D268182638FBE00057805F /* Font+Extension.swift in Sources */,
+				C0D268272639009F0057805F /* TabBarIcon.swift in Sources */,
 				C012CF432637AD7F004A53AF /* Color+Extension.swift in Sources */,
 				C06BB4702632B2C100F1A861 /* ContentView.swift in Sources */,
 				C05DBC762636964B006C49BC /* NavigationItem.swift in Sources */,
@@ -187,6 +277,8 @@
 				C012CF362637A76D004A53AF /* HomeView.swift in Sources */,
 				C012CF462637C188004A53AF /* TransactionRowContent.swift in Sources */,
 				C06BB46E2632B2C100F1A861 /* Expense_TrackerApp.swift in Sources */,
+				C0D2682A263900B80057805F /* PlusMenu.swift in Sources */,
+				C0D2683D263902090057805F /* CashFlowView.swift in Sources */,
 				C012CF322637A549004A53AF /* CategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

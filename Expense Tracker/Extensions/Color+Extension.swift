@@ -27,6 +27,12 @@ extension Color {
     static let paleBlue = Color("PaleBlue")
     static let darkBlue = Color("DarkBlue")
     
+    static let paleSkyBlue = Color("PaleSkyBlue")
+    static let darkSkyBlue = Color("DarkSkyBlue")
+    
     static let palePink = Color("PalePink")
     static let darkPink = Color("DarkPink")
+    
+    static let paleRed = Color("PaleRed")
+    static let darkRed = Color("DarkRed")
 }
