@@ -26,45 +26,18 @@ struct HomeView: View {
         UIScrollView.appearance().bounces = false
     }
     
-    private let dateFormatter: DateFormatter = { () -> DateFormatter in
-        let formatter = DateFormatter()
-        formatter.dateFormat = "MMMM YYYY"
-        return formatter
-    }()
-    
     var body: some View {
         GeometryReader { geometry in
             ScrollView(.vertical, showsIndicators: false) {
                 VStack {
-                    ZStack {
-                        Rectangle()
-                            .fill(LinearGradient(gradient: Gradient(colors: [.darkPurple, .lightPurple]), startPoint: .top, endPoint: .bottom))
-                            .frame(width: geometry.size.width, height: 300)
-                        VStack(spacing: 8) {
-                            Text("current balance".uppercased())
-                                .bold()
-                                .font(.body)
-                            Text("$\(32465)")
-                                .font(.largeTitle)
-                                .bold()
-                            Text(dateFormatter.string(from: Date()))
-                                .bold()
-                                .font(.body)
-                            HStack {
-                                CashFlowView(type: .income, value: 42500)
-                                Spacer()
-                                CashFlowView(type: .expense, value: 12421)
-                            }
-                            .padding(.top, 24)
-                        }
-                        .foregroundColor(.white)
-                        .padding(.horizontal, 24)
-                    }
-                    .edgesIgnoringSafeArea(.top)
+                    let expense = transactionData.filter({ $0.cost < 0 }).map({ $0.cost }).reduce(0, +)
+                    let income = transactionData.filter({ $0.cost > 0 }).map({ $0.cost }).reduce(0, +)
+                    HomeHeaderView(expense: expense, income: income, width: geometry.size.width)
                     LazyVStack {
                         ForEach(0..<transactionData.count, id: \.self) { index in
-                            TransactionRowContent(model: transactionData[index])
-                                .frame(width: geometry.size.width - 24, height: 90)
+                            TransactionRowContent(model: transactionData[index], size: geometry.size)
+                                .padding(.horizontal, 16)
+                                .padding(.vertical, 6)
                         }
                     }
                     .offset(y: -50)

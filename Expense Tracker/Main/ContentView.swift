@@ -15,7 +15,6 @@ struct ContentView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack(spacing: 0) {
-                Spacer()
                 switch viewRouter.currentPage {
                 case .home:
                     HomeView()
@@ -57,7 +56,7 @@ struct ContentView: View {
                         TabBarIcon(viewRouter: viewRouter, assignedPage: .chart, width: width, height: height, systemIconName: "chart.pie", tabName: "Chart")
                         TabBarIcon(viewRouter: viewRouter, assignedPage: .user, width: width, height: height, systemIconName: "person.crop.circle", tabName: "Account")
                     }
-                        .frame(width: geometry.size.width, height: geometry.size.height / 8)
+                    .frame(width: geometry.size.width, height: geometry.size.height / 8)
                     .background(Color.white.shadow(radius: 2))
                 }
             }
