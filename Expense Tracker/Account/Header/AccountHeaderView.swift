@@ -15,6 +15,10 @@ struct AccountHeaderView: View {
                 .font(.largeTitle)
                 .foregroundColor(.white)
             Spacer()
+            Image("megumi")
+                .resizable()
+                .clipShape(Circle())
+                .frame(width: 72, height: 72, alignment: .center)
         }
         .padding(.horizontal, 16)
         .offset(y: 20)
