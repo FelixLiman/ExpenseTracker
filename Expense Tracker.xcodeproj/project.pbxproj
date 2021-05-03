@@ -16,6 +16,7 @@
 		C012CF462637C188004A53AF /* TransactionRowContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C012CF452637C188004A53AF /* TransactionRowContent.swift */; };
 		C01EF727263802C50035A754 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01EF726263802C50035A754 /* TransactionModel.swift */; };
 		C05DBC762636964B006C49BC /* NavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05DBC752636964B006C49BC /* NavigationItem.swift */; };
+		C06B5D75263F97C2000CF411 /* AccountHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06B5D74263F97C2000CF411 /* AccountHeaderView.swift */; };
 		C06BB46E2632B2C100F1A861 /* Expense_TrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06BB46D2632B2C100F1A861 /* Expense_TrackerApp.swift */; };
 		C06BB4702632B2C100F1A861 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06BB46F2632B2C100F1A861 /* ContentView.swift */; };
 		C06BB4722632B2CA00F1A861 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C06BB4712632B2CA00F1A861 /* Assets.xcassets */; };
@@ -33,6 +34,10 @@
 		C0833608263AB50800091CF4 /* ChartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0833607263AB50800091CF4 /* ChartDetailView.swift */; };
 		C083360C263AB53700091CF4 /* HomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C083360B263AB53700091CF4 /* HomeHeaderView.swift */; };
 		C08A1E212633AF2800D121AC /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A1E202633AF2800D121AC /* ViewRouter.swift */; };
+		C0A139C5263BA4A000122D0D /* PieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A139C4263BA4A000122D0D /* PieView.swift */; };
+		C0A139C8263BA4B800122D0D /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A139C7263BA4B800122D0D /* BarView.swift */; };
+		C0A139CB263BA70F00122D0D /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A139CA263BA70F00122D0D /* BarChart.swift */; };
+		C0A139D1263BA74900122D0D /* LineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A139D0263BA74900122D0D /* LineView.swift */; };
 		C0D268182638FBE00057805F /* Font+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D268172638FBE00057805F /* Font+Extension.swift */; };
 		C0D2681F2638FEB50057805F /* HKGrotesk-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C0D2681A2638FEB40057805F /* HKGrotesk-SemiBold.otf */; };
 		C0D268202638FEB50057805F /* HKGrotesk-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = C0D2681B2638FEB50057805F /* HKGrotesk-Light.otf */; };
@@ -54,6 +59,7 @@
 		C012CF452637C188004A53AF /* TransactionRowContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRowContent.swift; sourceTree = "<group>"; };
 		C01EF726263802C50035A754 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		C05DBC752636964B006C49BC /* NavigationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationItem.swift; sourceTree = "<group>"; };
+		C06B5D74263F97C2000CF411 /* AccountHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountHeaderView.swift; sourceTree = "<group>"; };
 		C06BB46A2632B2C100F1A861 /* Expense Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expense Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C06BB46D2632B2C100F1A861 /* Expense_TrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense_TrackerApp.swift; sourceTree = "<group>"; };
 		C06BB46F2632B2C100F1A861 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -73,6 +79,10 @@
 		C0833607263AB50800091CF4 /* ChartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDetailView.swift; sourceTree = "<group>"; };
 		C083360B263AB53700091CF4 /* HomeHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeHeaderView.swift; sourceTree = "<group>"; };
 		C08A1E202633AF2800D121AC /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		C0A139C4263BA4A000122D0D /* PieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieView.swift; sourceTree = "<group>"; };
+		C0A139C7263BA4B800122D0D /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		C0A139CA263BA70F00122D0D /* BarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		C0A139D0263BA74900122D0D /* LineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineView.swift; sourceTree = "<group>"; };
 		C0D268172638FBE00057805F /* Font+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Extension.swift"; sourceTree = "<group>"; };
 		C0D2681A2638FEB40057805F /* HKGrotesk-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-SemiBold.otf"; sourceTree = "<group>"; };
 		C0D2681B2638FEB50057805F /* HKGrotesk-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "HKGrotesk-Light.otf"; sourceTree = "<group>"; };
@@ -102,6 +112,22 @@
 				C0D268172638FBE00057805F /* Font+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C06B5D72263F9780000CF411 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				C06B5D74263F97C2000CF411 /* AccountHeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		C06B5D73263F9792000CF411 /* Body */ = {
+			isa = PBXGroup;
+			children = (
+				C012CF3B2637A779004A53AF /* AccountView.swift */,
+			);
+			path = Body;
 			sourceTree = "<group>";
 		};
 		C06BB4612632B2C100F1A861 = {
@@ -201,8 +227,10 @@
 			isa = PBXGroup;
 			children = (
 				C012CF382637A773004A53AF /* ChartView.swift */,
-				C08335F0263AB0FF00091CF4 /* PieChart.swift */,
 				C0833607263AB50800091CF4 /* ChartDetailView.swift */,
+				C0A139CF263BA74200122D0D /* Line */,
+				C0A139CD263BA71900122D0D /* Bar */,
+				C0A139CE263BA71A00122D0D /* Pie */,
 			);
 			path = Body;
 			sourceTree = "<group>";
@@ -231,6 +259,32 @@
 				C01EF726263802C50035A754 /* TransactionModel.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		C0A139CD263BA71900122D0D /* Bar */ = {
+			isa = PBXGroup;
+			children = (
+				C0A139C7263BA4B800122D0D /* BarView.swift */,
+				C0A139CA263BA70F00122D0D /* BarChart.swift */,
+			);
+			path = Bar;
+			sourceTree = "<group>";
+		};
+		C0A139CE263BA71A00122D0D /* Pie */ = {
+			isa = PBXGroup;
+			children = (
+				C08335F0263AB0FF00091CF4 /* PieChart.swift */,
+				C0A139C4263BA4A000122D0D /* PieView.swift */,
+			);
+			path = Pie;
+			sourceTree = "<group>";
+		};
+		C0A139CF263BA74200122D0D /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				C0A139D0263BA74900122D0D /* LineView.swift */,
+			);
+			path = Line;
 			sourceTree = "<group>";
 		};
 		C0D2682C263900EB0057805F /* Main */ = {
@@ -268,7 +322,8 @@
 		C0D26830263900FE0057805F /* Account */ = {
 			isa = PBXGroup;
 			children = (
-				C012CF3B2637A779004A53AF /* AccountView.swift */,
+				C06B5D73263F9792000CF411 /* Body */,
+				C06B5D72263F9780000CF411 /* Header */,
 			);
 			path = Account;
 			sourceTree = "<group>";
@@ -376,6 +431,7 @@
 				C08335F8263AB15400091CF4 /* CategoryIcon.swift in Sources */,
 				C08335FD263AB2FC00091CF4 /* BackgroundHeader.swift in Sources */,
 				C08A1E212633AF2800D121AC /* ViewRouter.swift in Sources */,
+				C06B5D75263F97C2000CF411 /* AccountHeaderView.swift in Sources */,
 				C01EF727263802C50035A754 /* TransactionModel.swift in Sources */,
 				C0D268182638FBE00057805F /* Font+Extension.swift in Sources */,
 				C0D268272639009F0057805F /* TabBarIcon.swift in Sources */,
@@ -386,19 +442,23 @@
 				C08335F5263AB12700091CF4 /* PieModel.swift in Sources */,
 				C05DBC762636964B006C49BC /* NavigationItem.swift in Sources */,
 				C083360C263AB53700091CF4 /* HomeHeaderView.swift in Sources */,
+				C0A139D1263BA74900122D0D /* LineView.swift in Sources */,
 				C08335F1263AB0FF00091CF4 /* PieChart.swift in Sources */,
 				C012CF392637A773004A53AF /* ChartView.swift in Sources */,
 				C0833608263AB50800091CF4 /* ChartDetailView.swift in Sources */,
+				C0A139C8263BA4B800122D0D /* BarView.swift in Sources */,
 				C012CF3C2637A779004A53AF /* AccountView.swift in Sources */,
 				C08335E9263A5A4000091CF4 /* CategorySectionModel.swift in Sources */,
 				C012CF362637A76D004A53AF /* HomeView.swift in Sources */,
 				C0833605263AB45500091CF4 /* ChartHeaderView.swift in Sources */,
 				C0833601263AB30C00091CF4 /* CategoryHeaderView.swift in Sources */,
+				C0A139C5263BA4A000122D0D /* PieView.swift in Sources */,
 				C012CF462637C188004A53AF /* TransactionRowContent.swift in Sources */,
 				C06BB46E2632B2C100F1A861 /* Expense_TrackerApp.swift in Sources */,
 				C0D2682A263900B80057805F /* PlusMenu.swift in Sources */,
 				C0D2683D263902090057805F /* CashFlowView.swift in Sources */,
 				C08335EC263A5A6C00091CF4 /* CategorySectionContent.swift in Sources */,
+				C0A139CB263BA70F00122D0D /* BarChart.swift in Sources */,
 				C012CF322637A549004A53AF /* CategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
