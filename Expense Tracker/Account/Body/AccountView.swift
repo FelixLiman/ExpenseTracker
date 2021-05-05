@@ -15,7 +15,16 @@ struct AccountView: View {
                     BackgroundHeader(width: geometry.size.width)
                     AccountHeaderView()
                 }
+                HStack {
+                    Text("I")
+                }
             }
-        }
+        }.edgesIgnoringSafeArea(.top)
+    }
+}
+
+struct AccountView_Previews: PreviewProvider {
+    static var previews: some View {
+        AccountView()
     }
 }

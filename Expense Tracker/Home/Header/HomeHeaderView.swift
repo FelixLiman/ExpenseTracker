@@ -27,13 +27,13 @@ struct HomeHeaderView: View {
             VStack(spacing: 8) {
                 Text("current balance".uppercased())
                     .bold()
-                    .font(.body)
+                    .myFont(.body)
                 Text("$\(abs(income - expense))")
-                    .font(.largeTitle)
                     .bold()
+                    .myFont(.largeTitle)
                 Text(dateFormatter.string(from: Date()))
                     .bold()
-                    .font(.body)
+                    .myFont(.body)
                 HStack {
                     CashFlowView(type: .income, value: income)
                     Spacer()

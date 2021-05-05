@@ -16,7 +16,7 @@ struct CategorySectionContent: View {
         VStack {
             HStack {
                 Text(categoryModel.title)
-                    .font(.title2)
+                    .myFont(.title2)
                 Spacer()
             }
             .padding(.horizontal, 16)

@@ -38,7 +38,7 @@ struct CashFlowView: View {
                 Text("$\(value)")
                     .bold()
             }
-            .font(.body)
+            .myFont(.body)
         }
         .foregroundColor(.white)
         .padding(.horizontal, 8)

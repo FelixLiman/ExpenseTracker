@@ -64,7 +64,7 @@ struct CategoryRowContent: View {
                     .frame(width: size.width / 15, height: size.width / 15)
             }
             Text(model.title)
-                .font(.title3)
+                .myFont(.title3)
             Spacer()
             Image(systemName: "chevron.right")
         }

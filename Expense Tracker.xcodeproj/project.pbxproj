@@ -322,8 +322,8 @@
 		C0D26830263900FE0057805F /* Account */ = {
 			isa = PBXGroup;
 			children = (
-				C06B5D73263F9792000CF411 /* Body */,
 				C06B5D72263F9780000CF411 /* Header */,
+				C06B5D73263F9792000CF411 /* Body */,
 			);
 			path = Account;
 			sourceTree = "<group>";

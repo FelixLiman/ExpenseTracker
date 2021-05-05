@@ -10,10 +10,17 @@ import SwiftUI
 struct AccountHeaderView: View {
     var body: some View {
         HStack {
-            Text("Account")
-                .bold()
-                .font(.largeTitle)
-                .foregroundColor(.white)
+            VStack(alignment: .leading, spacing: 4) {
+                Text("Felix Liman")
+                    .bold()
+                    .myFont(.largeTitle)
+                    .foregroundColor(.white)
+                    .lineLimit(2)
+                Text("iOS Developer")
+                    .bold()
+                    .myFont(.title3)
+                    .foregroundColor(.white)
+            }
             Spacer()
             Image("megumi")
                 .resizable()

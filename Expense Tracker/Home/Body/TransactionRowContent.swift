@@ -57,13 +57,13 @@ struct TransactionRowContent: View {
             }
             VStack(alignment: .leading) {
                 Text(model.title)
-                    .font(.title3)
+                    .myFont(.title3)
                 Text(model.date)
-                    .font(.subheadline)
+                    .myFont(.subheadline)
             }
             Spacer()
             Text(model.cost < 0 ? "- $\(abs(model.cost))" : "+ $\(model.cost)")
-                .font(.title3)
+                .myFont(.title3)
                 .foregroundColor(model.cost < 0 ? .flatRed : .flatGreen)
         }
         .padding(16)

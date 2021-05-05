@@ -22,7 +22,7 @@ struct TabBarIcon: View {
                 .frame(width: width, height: height)
                 .padding(.top, 10)
             Text(tabName)
-                .font(.footnote)
+                .myFont(.footnote)
             Spacer()
         }
         .padding(.horizontal, -4)

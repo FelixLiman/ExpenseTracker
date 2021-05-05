@@ -12,7 +12,7 @@ struct ChartHeaderView: View {
         HStack {
             Text("Charts")
                 .bold()
-                .font(.largeTitle)
+                .myFont(.largeTitle)
                 .foregroundColor(.white)
             Spacer()
         }

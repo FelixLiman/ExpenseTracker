@@ -15,7 +15,7 @@ struct CategoryHeaderView: View {
             HStack {
                 Text("Categories")
                     .bold()
-                    .font(.largeTitle)
+                    .myFont(.largeTitle)
                     .foregroundColor(.white)
                 Spacer()
                 Image(systemName: "plus")
@@ -27,7 +27,7 @@ struct CategoryHeaderView: View {
             .padding(.horizontal, 16)
             HStack {
                 TextField("Search...", text: $text)
-                    .font(.body)
+                    .myFont(.body)
                     .foregroundColor(.black)
                     .padding(.horizontal, 16)
                     .padding(.vertical, 10)

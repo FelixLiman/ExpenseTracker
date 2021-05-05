@@ -17,14 +17,14 @@ struct ChartDetailView: View {
             ForEach(pieData) { pie in
                 HStack {
                     Text(pie.name)
-                        .font(.body)
+                        .myFont(.body)
                     Spacer()
                     Capsule()
                         .fill(pie.color)
                         .frame(width: getWidth(width: width, value: pie.percent), height: 10)
                     Text(String(format: "\(pie.percent)", "%.0f"))
                         .frame(width: 50, alignment: .trailing)
-                        .font(.body)
+                        .myFont(.body)
                 }
             }
         }.padding()
